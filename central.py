@@ -5,7 +5,7 @@ class Central:
     def __init__(self,name): #name?
         self.name = name
         self.dictionary = Dictionary()
-        self.res_random = Random(self.dictionary)
+        self.res_random = Random(self.dictionary)　#質問１、self.dictionary = Dictionary()で生成したself.dictionaryはですが、なぜRandomクラスの引数にいれるだけで辞書を起動出来るのか？
         self.res_repeat = Repeat(self.dictionary)
 
     def output(self,input):
